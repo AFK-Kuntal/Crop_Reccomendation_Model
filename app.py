@@ -25,7 +25,7 @@ def main():
     </div>
     <h4 style ="text-align:center;padding:20px 0px">Enter the details of your soil and we will recommend you what is the crop best suited for your soil and help you maximise your profits!</h4>
     """
-	st.image('./img-wg-crops.jpg')
+	st.image('./img.jpg')
 	st.markdown(html_temp, unsafe_allow_html = True)
 	N=st.text_input("Ratio of Nitrogen Content in Soil", "")
 	P=st.text_input("Ratio of Phosphorous Content in Soil", "")
