@@ -28,19 +28,15 @@ Ensure you have the dataset in the required format before running the model. The
 
 ## **Installation**
 
-Clone this repository:
-
-git clone https://github.com/AFK-Kuntal/Crop_Recommendation_Model.git
-cd Crop_Recommendation_Model
-(optional) you can just simply download and unzip
+- Download the Github Package from this repo and Unzip it anywhere.
+- Make sure you have python installed
+- Open the terminal
 
 Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 Ensure the dataset is in the /data directory.
-
-Now open terminal and type this command:-
 ```bash
 streamlit run app.py
 ```
