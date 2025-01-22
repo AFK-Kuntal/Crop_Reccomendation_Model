@@ -30,11 +30,11 @@ Ensure you have the dataset in the required format before running the model. The
 
 Clone this repository:
 
-git clone https://github.com/yourusername/Crop-Recommendation-Model.git
-cd Crop-Recommendation-Model
+git clone https://github.com/AFK-Kuntal/Crop_Recommendation_Model.git
+cd Crop_Recommendation_Model
 
 Install required dependencies:
-
+```python
 pip install -r requirements.txt
 
 Ensure the dataset is in the /data directory.
@@ -44,10 +44,6 @@ Ensure the dataset is in the /data directory.
 Run the notebook for training and evaluation:
 
 jupyter notebook Crop_Recommendation_model.ipynb
-
-(Optional) To predict a crop for new data, use:
-
-python predict.py --input <input_file>
 
 ## **Model Training**
 
