@@ -32,18 +32,19 @@ Clone this repository:
 
 git clone https://github.com/AFK-Kuntal/Crop_Recommendation_Model.git
 cd Crop_Recommendation_Model
+(optional) you can just simply download and unzip
 
 Install required dependencies:
-```python
+```bash
 pip install -r requirements.txt
-
+```
 Ensure the dataset is in the /data directory.
 
-## **Usage**
+Now open terminal and type this command:-
+```bash
+streamlit run app.py
+```
 
-Run the notebook for training and evaluation:
-
-jupyter notebook Crop_Recommendation_model.ipynb
 
 ## **Model Training**
 
